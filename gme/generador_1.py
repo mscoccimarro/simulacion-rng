@@ -10,7 +10,7 @@ def lehmerGenerator(a, m, seed, times):
   x = seed
   for i in range(0, times):
     print(x, end="", flush=True)
-    print(',', end="", flush=True) if i < times-1 else print('')
+    print(',', end="", flush=True) if i < times-1 else print('...')
     x = a*x % m
 
 
