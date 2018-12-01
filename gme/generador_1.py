@@ -17,14 +17,22 @@ def lehmerGenerator(a, m, seed, times):
 def stringifySequence(numberSequence):
   return ', '.join(str(x) for x in numberSequence) + '...'
 
-sequence1 = lehmerGenerator(6, 13, 1, 13)
-sequence2 = lehmerGenerator(6, 13, 2, 13)
+sequence1 = lehmerGenerator(6, 13, 1, 12)
+sequence2 = lehmerGenerator(6, 13, 2, 12)
+sequence3 = lehmerGenerator(7, 13, 1, 12)
+sequence4 = lehmerGenerator(5, 13, 1, 12)
 
 showHeader('Generador de Lehmer: a = 6, m = 13, x1 = 1')
 print(stringifySequence(sequence1))
 
 showHeader('Generador de Lehmer: a = 6, m = 13, x1 = 2')
 print(stringifySequence(sequence2))
+
+showHeader('Generador de Lehmer: a = 7, m = 13, x1 = 1')
+print(stringifySequence(sequence3))
+
+showHeader('Generador de Lehmer: a = 5, m = 13, x1 = 1')
+print(stringifySequence(sequence4))
 showEnd()
 
 seq1 = lehmerGenerator(6, 13, 1, 20)
