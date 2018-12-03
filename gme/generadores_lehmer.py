@@ -47,6 +47,7 @@ showEnd()
 seq1 = lehmerGenerator(6, 13, 1, 20)
 seq2 = lehmerGenerator(6, 13, 2, 20)
 
+# Creo los graficos y los muestro
 plt.title('Generador de Lehmer: a = 6, m = 13, x1 = 1')
 plt.xlabel('Índice en la secuencia')
 plt.ylabel('Número generado')
