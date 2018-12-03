@@ -2,6 +2,7 @@
 ## Descripción
 Ejemplos correspondientes al trabajo de investigación realizado sobre el paper **“Random Number Generators: Good ones are hard to find”**, de Stephen K. Park y Keith W. Miller para la cátedra Simulación 75.26 de la Facultad de Ingeniería de la UBA (FIUBA)
 
+
 ## Requerimientos
 Todos los ejemplos fueron realizados con el lenguaje [python versión 3.7.0](https://www.python.org/downloads/). A continuación se listan los requerimientos necesarios para poder ejecutar correctamente dichos ejemplos:
 
@@ -16,6 +17,8 @@ pip install matplotlib
 ```
 python -m pip install matplotlib
 ```
+**Es posible que en distribuciones de Linux sea necesario utilizar privilegios de administrador, por lo que se deberá preceder a los anteriores comando con la palabra** `sudo`.
+
 
 ## Ejecución
 Para ejecutar los ejercicios se debe navegar al directorio donde se encuentran los mismos y utilizar el comando python/py seguido del nombre del archivo. Por ejemplo para ejecutar el archivo `generador_1.py` se debería hacer lo siguiente:
