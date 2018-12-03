@@ -8,12 +8,19 @@ def showHeader(str):
 def showEnd():
   print('----------------------------------------------')
 
+# Devuelve un array con la secuencia de numeros aleatorios generada (sin normalizar)
+# a = multiplicador,
+# m = modulo,
+# seed = semilla,
+# times = cantidad de numeros aleatorios a generar
 def lehmerGenerator(a, m, seed, times):
   sequence = [seed]
   for i in range(0, times):
     sequence.append(sequence[i]*a % m)
   return sequence
 
+# Pasa un array de numeros a un formato "imprimible",
+# agregando comas entre los numeros y '...' al final
 def stringifySequence(numberSequence):
   return ', '.join(str(x) for x in numberSequence) + '...'
 
@@ -33,8 +40,10 @@ print(stringifySequence(sequence3))
 
 showHeader('Generador de Lehmer: a = 5, m = 13, x1 = 1')
 print(stringifySequence(sequence4))
+
 showEnd()
 
+# Creo otras iteraciones con mayor cantidad de numeros para realizar los graficos
 seq1 = lehmerGenerator(6, 13, 1, 20)
 seq2 = lehmerGenerator(6, 13, 2, 20)
 
