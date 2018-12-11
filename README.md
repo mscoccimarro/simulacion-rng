@@ -21,16 +21,16 @@ python -m pip install matplotlib
 
 
 ## Ejecución
-Para ejecutar los ejercicios se debe navegar al directorio donde se encuentran los mismos y utilizar el comando python/py seguido del nombre del archivo. Por ejemplo para ejecutar el archivo `generadores_lehmer.py` se debería hacer lo siguiente:
+Para ejecutar los ejercicios se debe navegar al directorio donde se encuentran los mismos y utilizar el comando python/py seguido del nombre del archivo. Por ejemplo para ejecutar el archivo `lehmer_1.py` se debería hacer lo siguiente:
 1. Navegar al directorio donde esta el archivo (se asume que el usuario esta en el directorio raíz de este proyecto):
 ```
-cd gme
+cd lehmer-generators
 ```
 2. Ejecutar el archivo:
 ```
-python generadores_lehmer.py
+python lehmer_1.py
 ```
 ó
 ```
-py generadores_lehmer.py
+py lehmer_1.py
 ```
